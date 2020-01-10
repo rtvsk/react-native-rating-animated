@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 
-export default class App extends Component {
+export default class Rating extends Component {
   state = {
     rating: 2,
     animation: new Animated.Value(1),
